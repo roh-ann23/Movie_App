@@ -1,0 +1,60 @@
+ /* This is CSS modules */
+
+ .Nav{
+    /* background: linear-gradient(170deg, #1bc059, #0d47a1); */
+    background: linear-gradient(170deg, #f8b500, #fceabb );
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.title{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: lightseagreen;
+    &:hover{
+        color: #0f0;
+    }
+}
+
+.CartIconContainer{ 
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+.CartIconContainer1{ 
+    position: relative;
+    display: inline-block;
+    /* margin-right: 10px; */
+    margin-left: 80%;
+}
+.CartImg{ 
+       display: block;
+       width: 40px; /* Reduced size for nav */
+       height: auto;
+
+}
+
+.CartCount {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        /* background-color: ${(props)=>props.color};    */
+        background-color: red;
+        /* this is used to add dynamic styling */
+        color: white;
+        padding: 2px 6px;
+        border-radius: 50%;
+        font-size: 12px;
+        min-width: 15px;
+        text-align: center;
+        line-height: 20px;
+        /* visibility: ${(props) => (props.show ? 'visible' : 'hidden')} */
+        /* used to show or hide elements on condidtions */
+       
+}
